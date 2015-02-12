@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Creative details</title>
+  <style>
+    form {
+      margin: 0 auto;
+      padding: 1em;
+      border: 1px solid #CCC;
+      border-radius: 1em;
+    }
+    form div + div {
+      margin-top: 1em;
+    }
+    label {
+      display: inline-block;
+      width: 120px;
+      text-align: right;
+    }
+    input {
+      font: 1em sans-serif;
+      width: 300px;
+      box-sizing: border-box;
+      border: 1px solid #999;
+    }
+    input:focus {
+      border-color: #000;
+    }
+    .button {
+      padding-left: 120px;
+    }
+    button {
+      margin-left: .5em;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Creative Details</h1>
+  <form action="/creative-is-saved" method="post">
+    <div>
+      <label for="name">Creative Name:</label>
+      <input type="text" id="name" />
+    </div>
+
+    <h2>Audio</h2>
+    <hr/>
+    <div>
+      <label for="mp3File">Audio file:</label>
+      <input type="file" id="mp3File" />
+    </div>
+    <div>
+      <label for="mp3Tracker1">Audio Tracker 1:</label>
+      <input type="text" id="mp3Tracker1" />
+    </div>
+    <div>
+      <label for="mp3Tracker2">Audio Tracker 2:</label>
+      <input type="text" id="mp3Tracker2" />
+    </div>
+    <div>
+      <label for="mp3Tracker3">Audio Tracker 3:</label>
+      <input type="text" id="mp3Tracker3" />
+    </div>
+    <div>
+      <label for="mp3Tracker4">Audio Tracker 4:</label>
+      <input type="text" id="mp3Tracker4" />
+    </div>
+    <div>
+      <label for="mp3Tracker5">Audio Tracker 5:</label>
+      <input type="text" id="mp3Tracker5" />
+    </div>
+
+    <h2>Banner 200x350</h2>
+    <hr/>
+    <div>
+      <label for="banner1File">Banner file:</label>
+      <input type="file" id="banner1File" />
+    </div>
+    <div>
+      <label for="banner1LandingPage">Landing Page:</label>
+      <input type="text" id="banner1LandingPage" />
+    </div>
+    <div>
+      <label for="banner1Tracker1">Banner Tracker 1:</label>
+      <input type="text" id="banner1Tracker1" />
+    </div>
+    <div>
+      <label for="banner1Tracker2">Banner Tracker 2:</label>
+      <input type="text" id="banner1Tracker2" />
+    </div>
+    <div>
+      <label for="banner1Tracker3">Banner Tracker 3:</label>
+      <input type="text" id="banner1Tracker3" />
+    </div>
+    <div>
+      <label for="banner1Tracker4">Banner Tracker 4:</label>
+      <input type="text" id="banner1Tracker4" />
+    </div>
+    <div>
+      <label for="banner1Tracker5">Banner Tracker 5:</label>
+      <input type="text" id="banner1Tracker5" />
+    </div>
+
+
+    <h2>Banner 900x222</h2>
+    <hr/>
+    <div>
+      <label for="banner2File">Banner file:</label>
+      <input type="file" id="banner2File" />
+    </div>
+    <div>
+      <label for="banner2LandingPage">Landing Page:</label>
+      <input type="text" id="banner2LandingPage" />
+    </div>
+    <div>
+      <label for="banner2Tracker1">Banner Tracker 1:</label>
+      <input type="text" id="banner2Tracker1" />
+    </div>
+    <div>
+      <label for="banner2Tracker2">Banner Tracker 2:</label>
+      <input type="text" id="banner2Tracker2" />
+    </div>
+    <div>
+      <label for="banner2Tracker3">Banner Tracker 3:</label>
+      <input type="text" id="banner2Tracker3" />
+    </div>
+    <div>
+      <label for="banner2Tracker4">Banner Tracker 4:</label>
+      <input type="text" id="banner2Tracker4" />
+    </div>
+    <div>
+      <label for="banner2Tracker5">Banner Tracker 5:</label>
+      <input type="text" id="banner2Tracker5" />
+    </div>
+
+    <hr/>
+    <div class="button">
+      <button type="submit">Save your creative</button>
+    </div>
+  </form>
+</body>
+
+</html>
