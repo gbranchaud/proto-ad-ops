@@ -2,7 +2,7 @@
   "name": "proto-ad-ops",
   "version": "1.0.0",
   "engines": {
-    "iojs": "1.2.x"
+    "iojs": "1.x"
   },
   "main": "app.js",
   "scripts": {
